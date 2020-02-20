@@ -1,0 +1,30 @@
+gestion_homepage:
+    path:     /Dashbord
+    defaults: { _controller: GestionBundle:Default:index }
+Ajouter_Repas:
+    path:     /FormR
+    defaults: { _controller: GestionBundle:Repas:Ajouter }
+Liste_Repas:
+    path:     /ListR
+    defaults: { _controller: GestionBundle:Repas:listRepas }
+Afficher_Repas:
+    path:     /AfficherR
+    defaults: { _controller: GestionBundle:Repas:AfficherR }
+Supprimer_Repas:
+    path:     /SupprimerR/{id}
+    defaults: { _controller: GestionBundle:Repas:SupprimerR }
+Modifier_Repas:
+    path:     /ModifierR/{id}
+    defaults: { _controller: GestionBundle:Repas:ModifierR }
+Ajouter_Abonnements:
+    path:     /FormA
+    defaults: { _controller: GestionBundle:Abonnements:AjouterAB }
+Liste_Abonnements:
+    path:     /ListA
+    defaults: { _controller: GestionBundle:Abonnements:listeAB }
+Supprimer_Abonnement:
+    path:     /SupprimerAB/{id}
+    defaults: { _controller: GestionBundle:Abonnements:SupprimerAB }
+Modifier_Abonnement:
+    path:     /ModifierAB/{id}
+    defaults: { _controller: GestionBundle:Abonnements:ModifierAB }

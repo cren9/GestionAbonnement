@@ -1,0 +1,32 @@
+{% extends"@Gestion/Dashboard/base2.html.twig" %}
+{% block content %}
+
+
+    <table border="5">
+        <h1>Liste des menus</h1>
+        <a href="{{path('Ajouter_Repas')}}"><button>Nouveau</button></a>
+        <tr>
+            <th>MENUS</th>
+            <th>TYPES</th>
+            <th>PHOTOS</th>
+            <th>Supprimer</th>
+            <th>Modifier</th>
+
+
+
+        </tr>
+
+    {% for Repas in Repas %}
+            <tr>
+                <td>{{Repas.nomMenu}}</td>
+                <td>{{Repas.type}}</td>
+                <td>{{Repas.photo}}</td>
+                <td><a href="{{path('Supprimer_Repas',{'id':Repas.id}) }}"><button>SUPPRIMER</button></a></td>
+                <td><a href="{{path('Modifier_Repas',{'id':Repas.id}) }}"><button>MODIFIER</button></a></td>
+            </tr>
+    {% endfor %}
+
+    </table>
+
+
+{% endblock %}

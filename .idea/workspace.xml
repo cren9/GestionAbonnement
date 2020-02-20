@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df0bd796-967c-44d3-bcdf-27ae9ba6ab92" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="ebb1b908-9a68-45a5-bbb5-3d25cd2fb49a" />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1XguIkp59XLF9DRP2OmiHqIxx4C" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="DEFAULT" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="s generate:bundle" />
+      <command value="s doctrine:database:create" />
+      <command value="s doctrine:generate:entity GestionBundle:Repas" />
+      <command value="s doctrine:generate:form GestionBundle:Repastype" />
+      <command value="s doctrine:generate:form GestionBundle:Repas" />
+      <command value="composer dump-autoload" />
+      <command value="s doctrine:schema:update --complete" />
+      <command value="s doctrine:schema:update -f" />
+      <command value="s doctrine:generate:entity GestionBundle:Abonnement" />
+      <command value="s doctrine:generate:entity " />
+      <command value="s doctrine:schema:create" />
+      <command value="s doctrine:generate:form" />
+      <command value="s doctrine:generate:form GestionBundle:Abonnement" />
+      <command value="s doctrine:generate:form GestionBundle:Abonnements" />
+      <command value="s generate:controller" />
+      <command value="s doctrine:schema:update --force" />
+      <command value="s doctrine:schema:update --dump-sql" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Gestion_AbonnementsBundle.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/Gestion_AbonnementsBundle/Gestion_AbonnementsBundle.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.Gestion_AbonnementsBundle.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df0bd796-967c-44d3-bcdf-27ae9ba6ab92" name="Default Changelist" comment="" />
+      <created>1581479980592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581479980592</updated>
+      <workItem from="1581480165232" duration="8516000" />
+      <workItem from="1581527305789" duration="17060000" />
+      <workItem from="1581580449581" duration="10355000" />
+      <workItem from="1581617301950" duration="35325000" />
+      <workItem from="1581670852954" duration="1575000" />
+      <workItem from="1581759247812" duration="5871000" />
+      <workItem from="1581891343950" duration="1773000" />
+      <workItem from="1582060374919" duration="4366000" />
+      <workItem from="1582112101567" duration="1123000" />
+      <workItem from="1582114092980" duration="687000" />
+      <workItem from="1582151947309" duration="268000" />
+      <workItem from="1582221318469" duration="1891000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

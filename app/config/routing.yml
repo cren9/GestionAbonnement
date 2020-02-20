@@ -1,0 +1,7 @@
+gestion:
+    resource: "@GestionBundle/Resources/config/routing.yml"
+    prefix:   /Gestion
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

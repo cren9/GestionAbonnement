@@ -1,0 +1,32 @@
+{% extends"@Gestion/Dashboard/base2.html.twig" %}
+{% block content %}
+<table border="5">
+    <h1>Liste des Abonnements</h1>
+    <tr>
+        <th>Abonnement n*</th>
+        <th>Options</th>
+        <th>Types</th>
+        <th>Prix</th>
+        <th>Nombre de mois</th>
+        <th>Supprimer</th>
+        <th>Modifier</th>
+
+
+
+    </tr>
+
+    {% for Abonnement in Abonnement %}
+        <tr>
+            <td>{{Abonnement.id}}</td>
+            <td>{{Abonnement.options}}</td>
+            <td>{{Abonnement.type}}</td>
+            <td>{{Abonnement.prix}}</td>
+            <td>{{Abonnement.nbMois }}</td>
+            <td><a href="{{path('Supprimer_Abonnement',{'id':Abonnement.id}) }}"><button>SUPPRIMER</button></a></td>
+            <td><a href="{{path('Modifier_Abonnement',{'id':Abonnement.id}) }}"><button>MODIFIER</button></a></td>
+
+        </tr>
+    {% endfor %}
+
+</table>
+{% endblock %}

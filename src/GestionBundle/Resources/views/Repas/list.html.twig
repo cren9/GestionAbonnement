@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    {% for Repas in Repas %}
+            <section class="ftco-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="pricing-entry bg-light pb-4 text-center">
+                                <div>
+                                    <h3 class="mb-3">{{Repas.nomMenu}}</h3>
+                                </div>
+                                <div><img src="{{ asset('uploads/Repas/' ~ Repas.photo) }}"></div>
+                                <div class="px-4">
+                                    <p>{{Repas.type}}</p>
+                                </div>
+                                <p class="button text-center"><a href="{{path('Ajouter_Abonnements')}}">S'ABONNER</a></p>
+                            </div>
+                        </div>
+            </section>
+        {% endfor %}
+{% endblock %}
